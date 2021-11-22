@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar.vue has expected html structure 1`] = `
+"<div id=\\"navBar\\">
+  <nuxt-link to=\\"/\\">
+    Home
+  </nuxt-link>
+  <nuxt-link to=\\"/favorite\\">
+    Favorite
+  </nuxt-link>
+</div>"
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue has expected html structure when side-bar component not render in the DOM 1`] = `
+"<div id=\\"app\\">
+  <app-bar-stub></app-bar-stub>
+  <!---->
+  <nuxt></nuxt>
+</div>"
+`;
+
+exports[`App.vue has expected html structure when side-bar component render in the DOM 1`] = `
+"<div id=\\"app\\">
+  <app-bar-stub></app-bar-stub>
+  <div>
+    <side-bar-stub></side-bar-stub>
+  </div>
+  <nuxt></nuxt>
+</div>"
+`;
